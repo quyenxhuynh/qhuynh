@@ -8,7 +8,8 @@ const ButtonVariants = cva(
       intent: {
         icon: "",
         link: "",
-        primary: "mx-2 py-3",
+        primary:
+          "px-4 py-3 bg-pink-300 hover:bg-pink-400 text-darker rounded-md",
       },
       size: {
         sm: "",

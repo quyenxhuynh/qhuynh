@@ -9,7 +9,7 @@ export const NavLinks: NavLink[] = [
     href: "/",
   },
   {
-    title: "Resume",
+    title: "Resumé",
     href: "/resume",
   },
   {

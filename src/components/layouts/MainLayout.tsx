@@ -17,7 +17,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ title, children }) => {
         <header className="bg-blue-200">
           <NavigationBar />
         </header>
-        <div className="flex flex-col flex-wrap text-center gap-2 content-center overflow-y-auto overflow-x-hidden text-ellipsis p-24">
+        <div className="flex flex-col flex-wrap text-center content-center overflow-y-auto overflow-x-hidden text-ellipsis">
           {children}
         </div>
         <Footer />
