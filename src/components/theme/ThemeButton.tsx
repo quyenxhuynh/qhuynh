@@ -1,5 +1,5 @@
-import DarkModeButton from './DarkModeButton';
-import LightModeButton from './LightModeButton';
+import DarkModeButton from "./DarkModeButton";
+import LightModeButton from "./LightModeButton";
 
 interface ThemeButtonProps {
   theme: string;
@@ -7,10 +7,12 @@ interface ThemeButtonProps {
 }
 
 const ThemeButton: React.FC<ThemeButtonProps> = ({ theme, toggleTheme }) => {
+  const size = 16;
+
   if (theme === "light") {
-    return <DarkModeButton onPressEnd={toggleTheme} />;
+    return <DarkModeButton size={size} onPressEnd={toggleTheme} />;
   } else {
-    return <LightModeButton onPressEnd={toggleTheme} />;
+    return <LightModeButton size={size} onPressEnd={toggleTheme} />;
   }
 };
 

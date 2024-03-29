@@ -1,3 +1,4 @@
 export interface ThemeButtonProps {
-    onPressEnd: () => void
+  size: number;
+  onPressEnd: () => void;
 }

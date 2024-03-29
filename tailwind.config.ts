@@ -8,6 +8,16 @@ const config: Config = {
   ],
   darkMode: "class",
   theme: {
+    colors: {
+      white: "#fff",
+      black: "#212529",
+      pink: {
+        300: "#FFBBE0",
+        400: "#E994C2",
+      },
+      dark: "#29294A",
+      darker: "#1D1D27",
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

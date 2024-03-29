@@ -5,8 +5,8 @@ interface NavLink {
 
 export const NavLinks: NavLink[] = [
   {
-    title: "About",
-    href: "/about",
+    title: "Home",
+    href: "/",
   },
   {
     title: "Resume",

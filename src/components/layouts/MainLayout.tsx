@@ -13,7 +13,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ title, children }) => {
       <Head>
         <title>{title ? `${title} | QHUYNH` : "QHUYNH"}</title>
       </Head>
-      <main className="h-screen grid grid-rows-main bg-red-200">
+      <main className="h-screen grid grid-rows-main bg-white text-darker dark:bg-darker dark:text-white">
         <header className="bg-blue-200">
           <NavigationBar />
         </header>
