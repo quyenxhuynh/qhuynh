@@ -7,15 +7,16 @@ import LinkVariants from "./Link.styles";
 
 interface LinkProps extends AriaLinkProps {
   // TODO: implement external
+  intent?: "default" | "button";
   external?: boolean;
 }
 
-const Link: React.FC<LinkProps> = ({ external, ...props }) => {
+const Link: React.FC<LinkProps> = ({ intent, external, ...props }) => {
   return (
     <AriaLink
       rel="noreferrer"
       target={external ? "_blank" : ""}
-      className={LinkVariants()}
+      className={LinkVariants({ intent: intent })}
       {...props}
     />
   );
